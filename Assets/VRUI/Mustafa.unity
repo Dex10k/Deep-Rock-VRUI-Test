@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 4aa30c3a4a7a34bbd9256623e194cf78, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3ee220ca72b62d34287560e01a467571, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1520,7 +1520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a0d0a9f8614c540b231fcf9d7a3ad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 180
+  rotationSpeed: 45
 --- !u!23 &982905554
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3514,7 +3514,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 851212907205135456, guid: 28570820186750e4cb246a58f864b2e8, type: 3}
+  - {fileID: 2100000, guid: 4d4c16bae1f05f64b89d88273b5fc7be, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
