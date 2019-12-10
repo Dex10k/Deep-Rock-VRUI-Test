@@ -18,6 +18,12 @@ public class CustomController : MonoBehaviour
             leftHand.SetActive(leftHandIsOpen);
         }
 
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            leftHandIsOpen = !leftHandIsOpen;
+            leftHand.SetActive(leftHandIsOpen);
+        }
+
         if (Input.GetKeyDown(KeyCode.LeftAlt)|| Input.GetKeyDown(KeyCode.RightAlt)|| Input.GetKeyDown(KeyCode.AltGr))
         {
             rightHandIsOpen = !rightHandIsOpen;
@@ -26,6 +32,12 @@ public class CustomController : MonoBehaviour
                 leftHand.SetActive(false);
                 leftHandIsOpen = false;
             }
+            rightHand.SetActive(rightHandIsOpen);
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftAlt) || Input.GetKeyUp(KeyCode.RightAlt) || Input.GetKeyUp(KeyCode.AltGr))
+        {
+            rightHandIsOpen = !rightHandIsOpen;
             rightHand.SetActive(rightHandIsOpen);
         }
     }
